@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_responsiveness/constants.dart';
 import 'package:flutter_responsiveness/util/custom_tile.dart';
+import 'package:flutter_responsiveness/util/text_screen_width.dart';
 import 'package:flutter_responsiveness/util/title_text.dart';
 import 'package:flutter_responsiveness/util/top_box.dart';
 
@@ -19,6 +20,7 @@ class _TabletScaffoldState extends State<TabletScaffold> {
       backgroundColor: Theme.of(context).backgroundColor,
       drawer: myDrawer,
       body: Column(children: [
+        TextScreenWidth(),
         TitleText(title: 'Featured content on Tablet'),
         // 4 boxes on the top
         AspectRatio(

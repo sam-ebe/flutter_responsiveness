@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_responsiveness/constants.dart';
 import 'package:flutter_responsiveness/util/custom_tile.dart';
+import 'package:flutter_responsiveness/util/text_screen_width.dart';
 import 'package:flutter_responsiveness/util/title_text.dart';
 import 'package:flutter_responsiveness/util/top_box.dart';
 
@@ -24,6 +25,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
         Expanded(
           flex: 2,
           child: Column(children: [
+            TextScreenWidth(),
             TitleText(title: 'Featured content on Desktop'),
             // 4 boxes on the top
             AspectRatio(
@@ -60,7 +62,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
           children: [
             Expanded(
                 child: Container(
-              color: Colors.blueGrey,
+              color: Colors.grey[800],
             ))
           ],
         ))
