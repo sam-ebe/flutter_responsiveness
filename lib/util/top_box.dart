@@ -8,7 +8,10 @@ class TopBox extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Container(
-        color: Colors.grey[700],
+        decoration: BoxDecoration(
+          color: Colors.grey[700],
+          borderRadius: BorderRadius.all(Radius.circular(8)),
+        ),
       ),
     );
   }

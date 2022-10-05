@@ -13,8 +13,11 @@ class _CustomTileState extends State<CustomTile> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Container(
-        color: Colors.grey[400],
         height: 80,
+        decoration: BoxDecoration(
+          color: Colors.grey[400],
+          borderRadius: BorderRadius.all(Radius.circular(8)),
+        ),
       ),
     );
   }

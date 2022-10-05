@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 var myAppBar = AppBar(
   backgroundColor: Colors.red[800],
+  title: Text('Pinterest Dashboard'),
 );
 
 var myDrawer = Drawer(
