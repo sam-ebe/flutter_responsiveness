@@ -1,6 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_responsiveness/constants.dart';
 import 'package:flutter_responsiveness/util/custom_tile.dart';
+import 'package:flutter_responsiveness/util/title_text.dart';
 import 'package:flutter_responsiveness/util/top_box.dart';
 
 class MobileScaffold extends StatefulWidget {
@@ -18,6 +21,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
       backgroundColor: Theme.of(context).backgroundColor,
       drawer: myDrawer,
       body: Column(children: [
+        TitleText(title: 'Featured content on Mobile'),
         // 4 boxes on the top
         AspectRatio(
           aspectRatio: 1,
@@ -35,6 +39,8 @@ class _MobileScaffoldState extends State<MobileScaffold> {
             ),
           ),
         ),
+        SizedBox(height: 12),
+        TitleText(title: 'Recommended for you'),
         // tiles on the bottom
         Expanded(
           child: ListView.builder(
