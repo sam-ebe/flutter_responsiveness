@@ -10,4 +10,4 @@ Smooth exploration of the responsiveness for tablet and desktop, with mobile fir
 
 **Here&apos;s a demo :**
 
-![](https://github.com/sam-ebe/flutter_responsiveness/blob/main/flutter_responsiveness.mkv)
+![](https://github.com/sam-ebe/flutter_responsiveness/blob/main/flutter_responsiveness.mp4)
