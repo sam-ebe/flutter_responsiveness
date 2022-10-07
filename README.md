@@ -1,16 +1,13 @@
-# flutter_responsiveness
+### Features
 
-A new Flutter project.
+- Flutter responsive design
+- Mobile / Tablet / Desktop Layout
 
-## Getting Started
+# Flutter Responsiveness
 
-This project is a starting point for a Flutter application.
+A mobile app may look great on mobile, but things don&apos;t always scale correctly.
+Smooth exploration of the responsiveness for tablet and desktop, with mobile first approach.
 
-A few resources to get you started if this is your first Flutter project:
+**Here&apos;s a demo :**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://github.com/sam-ebe/flutter_responsiveness/blob/main/flutter_responsiveness.mkv)
